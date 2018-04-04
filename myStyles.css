@@ -1,0 +1,25 @@
+.navTabs{
+	font-weight:600;
+	font-size: 16px;
+	line-height: 53px;
+	padding: 0px 5px;
+}
+.secondHeader .navbar-right  li:hover{
+	border-bottom: 4px solid red;
+}
+.mainHeader {
+	background-color: #666666;
+    border-radius: 0px;
+    border-color: #666666;
+    margin-bottom: 0px;
+}
+.mainHeader .navbar-nav li a{
+    color: #d8d0d0;
+	font-size: 12px;
+}
+.fa-envelope-o,
+.material-icons{
+	font-size: 14px;
+    color: red;
+    padding: 0px 5px;
+}

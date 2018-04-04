@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'populaire';
+    src: url('http://www.topherdsnacks.co.uk/wp-content/webfonts/populaire.ttf');
+ 	format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url('fonts/raleway/Raleway-Black.ttf');
+ 	format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('fonts/raleway/Raleway-Regular.ttf');
+ 	format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/raleway/Raleway-Bold.ttf');
+ 	format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+/*Raleway-Medium.ttf
+Raleway-Bold.ttf
+Raleway-Light.ttf
+Raleway-Regular.ttf*/
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+body {
+	font-family: 'Raleway-Regular';
+}
+.ralewayBold {
+  font-family: 'Raleway-Bold';
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.navTabs{
+	font-weight:600;
+	font-size: 16px;
+	line-height: 53px;
+	padding: 0px 5px;
+}
+.secondHeader .navbar-right  li{
+	border-bottom: 4px solid #f8f8f8;
+}
+.secondHeader .navbar-right  li:hover{
+	border-bottom: 4px solid red !important;
+}
+.mainHeader {
+	background-color: #666666;
+    border-radius: 0px;
+    border-color: #666666;
+    margin-bottom: 0px;
+}
+.mainHeader .navbar-nav li a{
+    color: #d8d0d0;
+	font-size: 12px;
+}
+.fa-envelope-o,
+.material-icons{
+	font-size: 14px;
+    color: red;
+    padding: 0px 5px;
+}
+.my_web .secondHeader {
+	margin-bottom: 0px;
+}
+
+.my_web .myMaxWidth {
+	max-width: 1366px;
+	margin: 0 auto;
+}
+.my_web .paddingZero {
+	padding: 0;
+}
+.my_web .my_mainBanner {
+	box-sizing: border-box;
+}
+.my_web .my_bannerImage img{
+	/*background-image: url(images/Slide_1.jpg);*/
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+   /*visibility: inherit;
+    background-position: center center;
+    z-index: 20;*/
+    /*background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;*/
+}
+.my_web .my_mainCOntentBg {
+	
+}
+
+.my_web .my_mainCOntentBg {
+	/*background-image: url(images/bg.jpg);*/
+	background: url(images/bg.png) no-repeat scroll 50% 0 / 100% 100% rgba(0, 0, 0, 0);
+	width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -7%;
+    padding: 220px 0 80px;
+}
+.my_web .my_greySection {
+	padding: 0 5% 0 0;
+}
+.my_web .my_greySection p {
+	line-height: 26px;
+}
+.my_web .my_orangeSection img{
+	max-width: 100%
+}
+.productImg1 {
+    position: absolute;
+    bottom: -35%;
+    left: -44%;
+    margin: -5px;
+}
+.my_web .my_aboutHeading {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.my_web .chilli {
+    position: absolute;
+    right: auto;
+    top: -310px;
+}
+
+.my_web .firsPList {
+	/*padding: 0px 15px;
+	margin-bottom: 0 auto;*/
+}
+.my_web .my_border {
+	border: 1px solid #ccc;
+}
+.my_web .my_borderNone {
+	border: none !important;
+}
+.my_web .my_borderLeftNone {
+	border-left: none !important;
+}
+.my_web .my_borderTopNone {
+	border-top: none !important;
+}
+.my_web .my_productHeading {
+	text-align: center;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.my_web .my_productsContainer {
+	padding-top: 110px;
+	position: relative;
+}
+.my_web .my_textAlignCenter {
+	text-align: center;
+}
+.my_web .firsPList,
+.my_web .secondPList {
+	font-family: 'Raleway-Bold';
+}
+.my_web .firsPList img,
+.my_web .secondPList img {
+	max-width: 100%;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.my_web .floatLeft {
+	float: left;
+}
+.my_web .floatRight {
+	float: right;
+}
+.my_web .firsPUList img,
+.my_web .seconndPUList img {
+	max-width: 100%;
+}
+.my_web .firstPUImg {
+	width: 64%;
+}
+.my_web .firstPUImg img,
+.my_web .secondPUImg img,
+.my_web .thirdPUImg img {
+	max-width: 100%
+}
+.my_web .secondPUImg {
+	position: relative;
+    left: -4%;
+}
+.my_web .secondPUImg img {
+	height: 372px;
+    padding-bottom: 3px;
+}
+.my_web .thirdPUImg {
+	position: relative;
+    left: -3.9%;
+}
+.my_web .thirdPUImg img {
+	height: 372px;
+}
+.my_web .PaddingZero {
+  padding: 0px;
+}
+.my_web .my_productsSample {
+  padding-top: 35px;
+}
+.my_web .maxWidth98 {
+  max-width: 98%;
+}
+.my_web .maxWidth100 {
+  max-width: 100%;
+}
+.my_web .my_productAdd {
+  padding-top: 50px;
+}
+.my_web .hs_redBackground{
+      background-color: #d02c1b;
+}
+.my_table {
+  color:white;
+  line-height: 0px;
+}
+.my_web .verticalAlighBottom {
+  vertical-align: bottom;
+}
+.my_web .verticalAlighTop {
+  vertical-align: top;
+}
+.hs_tableInput input{
+    width: 90%;
+    height: 40px;
+    border: 1px solid white;
+    background: #c73519;
+    color: white;
+    padding: 0px 20px;
+}
+.my_web .hs_tableButton button {
+    height: 40px;
+    border: 1px solid white;
+    background: #c73519;
+    padding: 0px 30px
+}
+.my_Subscribe {
+  padding: 30px 0px;
+}
+::placeholder {
+  color: white;
+}
+.hs_allRights {
+  padding: 20px 0px;
+  background-color: #666666;
+  color: white;
+}
+ul.hs_socialIcons {
+  padding: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+ul.hs_socialIcons li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  /*vertical-align: bottom;*/
+  border: 1px solid #dddddd;
+  padding: 5px 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.hs_footerWIthIcon {
+  padding: 50px 0px;
+}
+.hs_socialIconColor {
+  color: #cc2818;
+}
+.hs_pinkColor {
+  background: #ca3d2c;
+  width: 10%;
+  height: 2px;
+}
+.my_collapseHeader {
+  display: none;
+}
+/*media queries are here*/
+@media screen and (max-width: 3000px) and (min-width: 768px) {
+	.my_web .my_bannerImage {
+		background-position: top !important;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+    .my_collapseHeader {
+      display: block;
+    }
+    .my_web .my_mainCOntentBg {
+      background: none;
+      padding-top: 0px;
+      margin-top: 0px;
+
+    }
+    .my_web .my_greySection {
+      background: url(images/header_bg.jpg) repeat;
+      text-align: center;
+      padding: 20px;
+    }
+    .my_web .my_orangeSection {
+      background: url(images/Home_1_03.jpg) repeat;
+      text-align: center;
+      padding: 20px;
+    }
+    .mainHeader {
+      display: none;
+    }
+    .secondHeader {
+      display: none;
+    }
+    .my_collapseHeader.navbar {
+      margin-bottom: 0px !important;
+    }
+    .my_collapseHeader.navbar-inverse {
+      background-color: #fff;
+      border-color: #ffffff;
+    }
+    .my_collapseHeader.navbar-inverse .navbar-toggle {
+      border-color: #333;
+      background: black;
+  }
+  .my_footertdsresp {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .hs_pinkColor {
+    margin: 0 auto;
+  }
+  ul.hs_socialIcons {
+    position: relative;
+  }
+  .my_firstbottomtdDiv {
+    max-width: 100% !important;
+  }
+  .my_firstbottomtdP {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .my_table {
+    width: 100%;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus,
+  .navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+  }
+  .my_headerContainer {
+    margin: 0px -15px !important;
+  }
+  .my_web .my_productsContainer {
+    padding-top: 0px;
+  }
+  .my_web .chilli {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+  .my_web .my_mainCOntentBg {
+    margin-top: -11%;
+  }
+  .mainHeader .navbar-nav li a {
+    font-size: 11px;
+  }
+  .fa-envelope-o, .material-icons {
+    font-size: 10px;
+  }
+  .mainHeader .nav>li>a {
+    padding: 10px 5px;
+  }
+  .my_SubscribeP {
+    font-size: 11px;
+  }
+  .my_headerContainer {
+    margin: 0px -15px !important;
+  }
+}
